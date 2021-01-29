@@ -1,3 +1,11 @@
+An equation of the type a^3 = b^3 + c^3 + d^3 is called a perfect cube equation
+For any integer N , find all 4-tuple (a , b , c , d) , to make a^3 = b^3 + c^3 + d^3.
+a , b , c , d are greater than 1 and less or equal than N and b <= c <= d.
+Input : a positive integer N (N <= 100)
+output : Output a perfect cube each line
+         output format : Cube = a , Triple = (b , c , d)
+
+
 #include<iostream>
 #include<cstdio>
 int main()
